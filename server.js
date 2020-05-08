@@ -17,19 +17,22 @@ app.use(express.static(staticPath));
 
 app.get('/', (req, res) => {
   res.render("index", {
-    title: "Twanel App Status"
+    title: "Twanel App",
+    subtitle: "Home"
   });
 });
 
 app.get('/developer-log', (req, res) => {
   res.render("developer-log", {
-    title: "Developer Log"
+    title: "Developer Log",
+    subtitle: "Enhancements, Bugs, and more..."
   });
 });
 
 app.get('/about', (req, res) => {
   res.render("about", {
-    title: "About Twanel App"
+    title: "About Twanel App",
+    subtitle: "What is Twanel?"
   });
 });
 
