@@ -16,7 +16,21 @@ hbs.registerPartials(partialsPath);
 app.use(express.static(staticPath));
 
 app.get('/', (req, res) => {
-  res.render("index", {});
+  res.render("index", {
+    title: "Twanel App Status"
+  });
+});
+
+app.get('/developer-log', (req, res) => {
+  res.render("developer-log", {
+    title: "Developer Log"
+  });
+});
+
+app.get('/about', (req, res) => {
+  res.render("about", {
+    title: "About Twanel App"
+  });
 });
 
 app.listen(port, () => {
