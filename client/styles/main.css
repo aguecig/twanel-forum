@@ -1,47 +1,23 @@
-header {
-  font-size: 125%;
-  text-align: right;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  padding: 5px;
-  margin-left: 2px;
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
 }
 
-h1 {
-  margin-left: 2px;
-}
 
-ul {
-  list-style: none;
-  padding: 10px;
-}
-
-li {
-  padding: 5px;
-}
-
-div {
-  margin: 5px;
-}
-
-.bug-flex-container {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-}
-
-.about-flex-container {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-}
-
-.box {
-  margin: 5px;
-}
-
-#about-twanel {
-  padding-bottom: 10px;
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgb(85, 129, 207, 0.8), rgb(14, 72, 126, 0.8)), url(../img/misc/banner.png);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
