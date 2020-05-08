@@ -1,3 +1,8 @@
+header {
+  font-size: 125%;
+  text-align: right;
+}
+
 a {
   text-decoration: none;
   padding: 5px;
@@ -8,7 +13,26 @@ h1 {
   margin-left: 2px;
 }
 
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+li {
+  padding: 5px;
+}
+
+div {
+  margin: 5px;
+}
+
 .bug-flex-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.about-flex-container {
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -16,4 +40,8 @@ h1 {
 
 .box {
   margin: 5px;
+}
+
+#about-twanel {
+  padding-bottom: 10px;
 }
