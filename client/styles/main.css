@@ -16,7 +16,6 @@ body {
   padding: 3rem;
 }
 
-
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgb(85, 129, 207, 0.8), rgb(14, 72, 126, 0.8)), url(../img/misc/banner.png);
@@ -34,6 +33,56 @@ body {
 
 .logo {
   height: 10rem;
+}
+
+.menu-container {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  top: 3%;
+  right: 6%;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  background-color: white;
+  padding-top: 0.65rem;
+  border: 0.25rem solid black;
+}
+
+.menu-container:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.menu-container:hover .menu-content {
+  display:block;
+
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+.menu-content {
+  display:none;
+  position: relative;
+  right: 6rem;
+  background-image: linear-gradient(to right bottom, rgb(236, 236, 234, 0.25), rgb(221, 220, 214, 1));
+  min-width: 16rem;
+  z-index: 1;
+}
+
+#menu-bars-image {
+  font-size: 3rem;
+  color: black;
+}
+
+.menu-link {
+  font-size: 200%;
+  text-decoration: none;
+}
+
+.link-flex-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .text-box {
@@ -100,6 +149,16 @@ body {
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
