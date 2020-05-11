@@ -12,8 +12,13 @@ body {
   font-family: sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
+  color: black;
   padding: 3rem;
+}
+
+footer {
+  margin: 1.6rem;
+  font-size: 125%;
 }
 /* ////////////////////////////////////////////////////////////////////////// */
 /* header.hbs styles begins here */
@@ -249,5 +254,63 @@ body {
   font-size: 200%;
 }
 
+#factions {
+  background-image: linear-gradient(to right bottom, rgb(218, 155, 255, 0.1), rgb(218, 61, 255, 1)), url(../img/misc/winnu.png);
+  background-size: cover;
+  background-position: top;
+  border-radius: 10%;
+  padding: 2rem;
+  color: #052d03;
+  font-weight: bolder;
+}
+
+#cards {
+  background-image: linear-gradient(to right bottom, rgb(201, 140, 6, 0.1), rgb(201, 89, 6, 1)), url(../img/misc/action-card.png);
+  min-width: 30rem;
+  text-align: center;
+  border-radius: 10%;
+  padding: 2rem;
+  font-weight: bolder;
+}
+
+#automated-parts {
+  background-image: linear-gradient(to right bottom, rgb(53, 124, 221, 0.1), rgb(0, 0, 134, 1)), url(../img/misc/living-rules-reference.png);
+  min-width: 30rem;
+  border-radius: 10%;
+  padding: 2rem;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+}
+
+#bug-log-body {
+  background-image: linear-gradient(to right bottom, rgb(53, 124, 221, 0.6), rgb(0, 0, 134, 1));
+  border-radius: 5%;
+  padding: 2rem;
+}
+
 /* developer.hbs styles ends here */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* info.hbs styles begins here */
+
+.about-flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 200%;
+  justify-content: space-between;
+}
+
+.external-references-container {
+  background-image: linear-gradient(to right bottom, rgb(199, 181, 251, 0.1), rgb(170, 150, 184, 1)), url(../img/misc/book.png);
+  border-radius: 10%;
+  padding: 2rem;
+  background-size: cover;
+}
+
+.external-sources-link {
+  text-decoration: none;
+}
+
+/* info.hbs styles ends here */
 /* ////////////////////////////////////////////////////////////////////////// */

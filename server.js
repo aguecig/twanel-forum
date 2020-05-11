@@ -25,14 +25,14 @@ app.get('/', (req, res) => {
 app.get('/developer-log', (req, res) => {
   res.render("developer-log", {
     title: "Developer Log",
-    subtitle: "Enhancements, Bugs, and more..."
+    subtitle: "Features, Bug fixes, and more..."
   });
 });
 
 app.get('/about', (req, res) => {
   res.render("about", {
     title: "Learn",
-    subtitle: "Information about the app"
+    subtitle: "Information about TI"
   });
 });
 
