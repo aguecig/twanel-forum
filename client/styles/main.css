@@ -15,7 +15,8 @@ body {
   color: #777;
   padding: 3rem;
 }
-
+/* ////////////////////////////////////////////////////////////////////////// */
+/* header.hbs styles begins here */
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgb(85, 129, 207, 0.8), rgb(14, 72, 126, 0.8)), url(../img/misc/banner.png);
@@ -68,6 +69,7 @@ body {
   background-image: linear-gradient(to right bottom, rgb(236, 236, 234, 0.25), rgb(221, 220, 214, 1));
   min-width: 16rem;
   z-index: 1;
+  border-radius: 5%;
 }
 
 #menu-bars-image {
@@ -209,3 +211,39 @@ body {
   transform: scale(1.5);
   opacity: 0;
 }
+
+/* header.hbs styles ends here */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* developer.hbs styles begins here */
+
+.developer-links-flex-container, .log-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.features-flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 200%;
+  justify-content: space-between;
+}
+
+.developer-links-container {
+  font-size: 300%;
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+}
+
+.log-header {
+  text-align: center;
+  font-size: 500%;
+  color: black;
+}
+
+.features-list {
+  list-style: none;
+}
+
+/* developer.hbs styles ends here */
+/* ////////////////////////////////////////////////////////////////////////// */
