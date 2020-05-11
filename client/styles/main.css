@@ -245,5 +245,9 @@ body {
   list-style: none;
 }
 
+#bug-log-list, #coming-soon-list {
+  font-size: 200%;
+}
+
 /* developer.hbs styles ends here */
 /* ////////////////////////////////////////////////////////////////////////// */
