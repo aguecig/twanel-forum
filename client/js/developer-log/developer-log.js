@@ -3,6 +3,11 @@ const crossCircle = `<i class="fa fa-times-circle" style="color:red;"></i>`;
 
 const bugs = [
   {
+    date: "12/05/20",
+    resolved: true,
+    description: "If a player selects planets for use during secondary abilities of strategy cards or during production step, then chooses to pass, these planets become exhausted."
+  },
+  {
     date: "11/05/20",
     resolved: true,
     description: "Units that had previously sustained damage and were destroyed and then produced are being returned to the board having sustained damage."
