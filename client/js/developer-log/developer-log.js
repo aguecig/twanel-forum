@@ -19,7 +19,7 @@ const bugs = [
   },
   {
     date: "05/05/20",
-    resolved: false,
+    resolved: true,
     description: "Faction ability Munitions Reserves will prompt The Barony of Letnev player even if they are not involved in the combat."
   },
   {
