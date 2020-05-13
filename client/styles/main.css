@@ -324,5 +324,16 @@ footer {
   text-decoration: none;
 }
 
+.faq {
+  font-size: 200%;
+}
+
+#faqs-list {
+  list-style: none;
+  background-image: linear-gradient(to right bottom, rgb(255, 229, 246, 0.1), rgb(233, 203, 232, .8));
+  padding: 2rem;
+  border-radius: 10%;
+}
+
 /* info.hbs styles ends here */
 /* ////////////////////////////////////////////////////////////////////////// */
