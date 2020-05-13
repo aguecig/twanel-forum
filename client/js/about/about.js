@@ -15,7 +15,7 @@ const faqs = [
 
 faqs.forEach(faq => {
   $("#faqs-list").append(`
-    <li>${faq.question}</li>
+    <li style="font-weight: bolder;">${faq.question}</li>
     <li>${faq.answer}</li>
     <br>
     `);
