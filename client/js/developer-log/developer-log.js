@@ -3,6 +3,11 @@ const crossCircle = `<i class="fa fa-times-circle" style="color:red;"></i>`;
 
 const bugs = [
   {
+    date: "15/05/20",
+    resolved: true,
+    description: "The Trade strategy card is note being set to exhausted when utilized by the active player."
+  },
+  {
     date: "12/05/20",
     resolved: true,
     description: "If a player selects planets for use during secondary abilities of strategy cards or during production step, then chooses to pass, these planets become exhausted."
