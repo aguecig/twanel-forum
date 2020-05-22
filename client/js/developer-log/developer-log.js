@@ -3,6 +3,11 @@ const crossCircle = `<i class="fa fa-times-circle" style="color:red;"></i>`;
 
 const bugs = [
   {
+    date: "20/05/20",
+    resolved: true,
+    description: "After picking a strategy card with trade goods associated with it, the card is not resetting trade goods to 0 once the card is selected by a player."
+  },
+  {
     date: "15/05/20",
     resolved: true,
     description: "The Trade strategy card is note being set to exhausted when utilized by the active player."

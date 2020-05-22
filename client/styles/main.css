@@ -31,6 +31,11 @@ footer {
   position: relative;
 }
 
+.header-flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .logo-box {
   position: absolute;
   top: 4rem;
@@ -39,6 +44,18 @@ footer {
 
 .logo {
   height: 10rem;
+}
+
+.youtube-link-container {
+  height: 10rem;
+  padding-left: 2rem;
+  font-size: 4rem;
+  color: white;
+}
+
+.youtube-link {
+  text-decoration: none;
+  color: white;
 }
 
 .menu-container {
