@@ -16,6 +16,7 @@ hbs.registerPartials(partialsPath);
 app.use(express.static(staticPath));
 
 app.get('/', (req, res) => {
+  console.log("test");
   res.render("index", {
     title: "Twanel App",
     subtitle: "Home"
