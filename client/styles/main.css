@@ -33,7 +33,7 @@ footer {
 
 .header-flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .logo-box {
@@ -49,7 +49,7 @@ footer {
 .youtube-link-container {
   height: 10rem;
   padding-left: 2rem;
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
 }
 
