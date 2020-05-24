@@ -3,6 +3,11 @@ const crossCircle = `<i class="fa fa-times-circle" style="color:red;"></i>`;
 
 const bugs = [
   {
+    date: "23/05/20":,
+    resolved: true,
+    description: "If playing The Clan of Saar and attempting to select space dock for Warfare secondary ability, space dock was not selectable."
+  },
+  {
     date: "20/05/20",
     resolved: true,
     description: "After picking a strategy card with trade goods associated with it, the card is not resetting trade goods to 0 once the card is selected by a player."
