@@ -3,7 +3,7 @@ const crossCircle = `<i class="fa fa-times-circle" style="color:red;"></i>`;
 
 const bugs = [
   {
-    date: "23/05/20":,
+    date: "23/05/20",
     resolved: true,
     description: "If playing The Clan of Saar and attempting to select space dock for Warfare secondary ability, space dock was not selectable."
   },
