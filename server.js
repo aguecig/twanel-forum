@@ -1,4 +1,5 @@
 console.log("Gianx");
+console.log("Hello world");
 
 const path  = require('path');
 const chalk = require('chalk');
