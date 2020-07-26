@@ -1,5 +1,3 @@
-console.log("Gianx");
-
 const path  = require('path');
 const chalk = require('chalk');
 const express = require('express');
@@ -16,8 +14,6 @@ app.set('view engine', 'hbs');
 app.set('views', viewsPath);
 hbs.registerPartials(partialsPath);
 app.use(express.static(staticPath));
-
-console.log(message);
 
 app.get('/', (req, res) => {
   res.render("index", {
