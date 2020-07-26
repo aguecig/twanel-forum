@@ -1,4 +1,4 @@
-const message = "this is a test for merge conflicts";
+console.log("Gianx");
 
 const path  = require('path');
 const chalk = require('chalk');
