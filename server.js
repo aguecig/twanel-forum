@@ -1,4 +1,4 @@
-// Gianx
+const message = "this is a test for merge conflicts";
 
 const path  = require('path');
 const chalk = require('chalk');
@@ -16,6 +16,8 @@ app.set('view engine', 'hbs');
 app.set('views', viewsPath);
 hbs.registerPartials(partialsPath);
 app.use(express.static(staticPath));
+
+console.log(message);
 
 app.get('/', (req, res) => {
   res.render("index", {
