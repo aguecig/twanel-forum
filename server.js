@@ -1,4 +1,4 @@
-// Gianx
+console.log("Gianx");
 
 const path  = require('path');
 const chalk = require('chalk');
